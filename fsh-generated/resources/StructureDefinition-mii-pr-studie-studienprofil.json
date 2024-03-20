@@ -1,0 +1,143 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-studie-studienprofil",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-pr-studie-studienprofil",
+  "version": "2024.0.0",
+  "name": "MII_PR_Studie_Studienprofil",
+  "title": "MII PR Studie Studienprofil",
+  "status": "active",
+  "experimental": false,
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "BRIDG5.1",
+      "uri": "https://bridgmodel.nci.nih.gov",
+      "name": "BRIDG 5.1 Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "clinicaltrials-gov",
+      "uri": "http://clinicaltrials.gov",
+      "name": "ClinicalTrials.gov Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ResearchStudy",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ResearchStudy",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ResearchStudy.extension:Laienbeschreibung",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Laienbeschreibung",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-laienbeschreibung"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Ziel",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Ziel",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-ziel"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Ergebnis",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Ergebnis",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-ergebnis"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Hintergrund",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Hintergrund",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-hintergrund"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Methode",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Methode",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-methode"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Fachrichtung",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Fachrichtung",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-fachrichtung"
+            ]
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}
