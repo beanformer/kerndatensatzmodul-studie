@@ -1,7 +1,7 @@
 Profile: MII_PR_Studie_Studienprofil
 Title: "MII PR Studie Studienprofil"
-Parent: ResearchStudy
-//Parent: https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-pr-studie-studie
+//Parent: ResearchStudy
+Parent: https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-pr-studie-studie
 Id: mii-pr-studie-studienprofil
 * insert addMetadata
 * extension contains MII_EX_Studie_Laienbeschreibung named Laienbeschreibung 0..1 MS
