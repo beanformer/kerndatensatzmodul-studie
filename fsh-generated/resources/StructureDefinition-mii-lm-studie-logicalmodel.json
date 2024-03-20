@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-lm-studie-logicalmodel",
-  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
   "version": "2024.0.0",
   "name": "MII_LM_Studie_LogicalModel",
   "title": "MII LM Studie LogicalModel",
@@ -18,7 +18,7 @@
   ],
   "kind": "logical",
   "abstract": false,
-  "type": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
+  "type": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
   "derivation": "specialization",
   "differential": {

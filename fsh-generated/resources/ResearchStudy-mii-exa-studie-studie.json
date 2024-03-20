@@ -3,7 +3,7 @@
   "id": "mii-exa-studie-studie",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-pr-studie-studie"
     ]
   },
   "extension": [
@@ -43,7 +43,7 @@
       "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
     },
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-akronym",
       "valueString": "tDCS"
     },
     {
@@ -69,10 +69,10 @@
           "valueDate": "2023-02-17"
         }
       ],
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
     },
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
       "valueString": "Öffentliche Förderinstitutionen, aus Steuermitteln getragene Institutionen (DFG, BMBF u. a.)"
     },
     {
@@ -90,7 +90,7 @@
           "valueString": "Az.: 83/18"
         }
       ],
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
     }
   ],
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-pr-studie-studie",
-  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-pr-studie-studie",
   "version": "2024.0.0",
   "name": "MII_PR_Studie_Studie",
   "title": "MII PR Studie Studie",
@@ -89,7 +89,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
             ]
           }
         ],
@@ -105,7 +105,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-studienregister"
             ]
           }
         ],
@@ -121,7 +121,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-eligibility"
             ]
           }
         ],
@@ -137,7 +137,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-akronym"
             ]
           }
         ],
@@ -153,7 +153,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
             ]
           }
         ],
@@ -169,7 +169,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-finanzierung"
             ]
           }
         ],

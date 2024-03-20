@@ -3,7 +3,7 @@
   "id": "mii-exa-studie-ein-auschluss-kriterium",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
     ]
   },
   "characteristic": [

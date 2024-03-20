@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-finanzierung",
-  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
   "version": "2024.0.0",
   "name": "MII_EX_Studie_Finanzierung",
   "title": "MII EX Studie Finanzierung",
@@ -41,7 +41,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-ex-studie-finanzierung"
       },
       {
         "id": "Extension.value[x]",

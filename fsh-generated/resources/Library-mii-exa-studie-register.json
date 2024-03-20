@@ -3,7 +3,7 @@
   "id": "mii-exa-studie-register",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/mii-pr-studie-register"
     ]
   },
   "type": {
